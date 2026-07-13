@@ -13,3 +13,7 @@ As regras oficiais de UX, conversão e usabilidade do e-commerce estão document
 ## Biblioteca de componentes
 
 A biblioteca oficial de componentes do e-commerce está documentada em [COMPONENT_LIBRARY.md](COMPONENT_LIBRARY.md). Consulte esse arquivo antes de projetar, nomear ou implementar componentes de interface para manter consistência com as regras técnicas, UX, acessibilidade e design system da Bom Ar.
+
+## Arquitetura de catálogo
+
+A arquitetura oficial de catálogo, categorias, taxonomias, filtros, URLs, breadcrumbs, SEO, páginas estratégicas e busca está documentada em [CATALOG_ARCHITECTURE.md](CATALOG_ARCHITECTURE.md). Consulte esse arquivo antes de criar categorias, atributos, páginas de marca, páginas por ambiente, páginas por BTU, filtros ou regras de busca.
