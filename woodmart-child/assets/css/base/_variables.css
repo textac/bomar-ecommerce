@@ -7,79 +7,106 @@
 
 :root {
 	/* Colors: brand */
-	--bom-color-brand-primary-50: #eef8ff;
-	--bom-color-brand-primary-100: #d9efff;
-	--bom-color-brand-primary-200: #bce4ff;
-	--bom-color-brand-primary-300: #8ed4ff;
-	--bom-color-brand-primary-400: #58b9f7;
-	--bom-color-brand-primary-500: #2f9ee8;
-	--bom-color-brand-primary-600: #177fc6;
-	--bom-color-brand-primary-700: #12649f;
-	--bom-color-brand-primary-800: #145682;
-	--bom-color-brand-primary-900: #17486b;
+	--bom-color-primary: #024ea2;
+	--bom-color-primary-hover: #023f82;
+	--bom-color-primary-active: #013466;
+	--bom-color-secondary: #1268b2;
+	--bom-color-secondary-hover: #0e5795;
+	--bom-color-secondary-active: #0a4778;
+	--bom-color-light-blue: #abe0f9;
+	--bom-color-light-blue-hover: #8fd4f5;
+	--bom-color-white: #ffffff;
+	--bom-color-black: #000000;
+	--bom-color-text-primary: var(--bom-color-black);
 
-	--bom-color-brand-secondary-50: #f0fbff;
-	--bom-color-brand-secondary-100: #dff7ff;
-	--bom-color-brand-secondary-200: #b9f0ff;
-	--bom-color-brand-secondary-300: #7ee4ff;
-	--bom-color-brand-secondary-400: #3bd2fb;
-	--bom-color-brand-secondary-500: #12b8e2;
-	--bom-color-brand-secondary-600: #0694bf;
-	--bom-color-brand-secondary-700: #087699;
-	--bom-color-brand-secondary-800: #0d617c;
-	--bom-color-brand-secondary-900: #105168;
+	/* Colors: gray scale */
+	--bom-color-gray-0: #ffffff;
+	--bom-color-gray-50: #f9fafb;
+	--bom-color-gray-100: #f3f4f6;
+	--bom-color-gray-200: #e5e7eb;
+	--bom-color-gray-300: #d1d5db;
+	--bom-color-gray-400: #9ca3af;
+	--bom-color-gray-500: #6b7280;
+	--bom-color-gray-600: #4b5563;
+	--bom-color-gray-700: #374151;
+	--bom-color-gray-800: #1f2937;
+	--bom-color-gray-900: #111827;
+	--bom-color-gray-950: #030712;
+	--bom-color-gray-1000: #000000;
 
-	--bom-color-brand-accent-50: #fff7ed;
-	--bom-color-brand-accent-100: #ffedd5;
-	--bom-color-brand-accent-200: #fed7aa;
-	--bom-color-brand-accent-300: #fdba74;
-	--bom-color-brand-accent-400: #fb923c;
-	--bom-color-brand-accent-500: #f97316;
-	--bom-color-brand-accent-600: #ea580c;
-	--bom-color-brand-accent-700: #c2410c;
-	--bom-color-brand-accent-800: #9a3412;
-	--bom-color-brand-accent-900: #7c2d12;
+	/* Colors: feedback */
+	--bom-color-success: #16a34a;
+	--bom-color-success-background: #f0fdf4;
+	--bom-color-success-border: #86efac;
+	--bom-color-success-text: #166534;
+	--bom-color-warning: #f59e0b;
+	--bom-color-warning-background: #fffbeb;
+	--bom-color-warning-border: #fcd34d;
+	--bom-color-warning-text: #92400e;
+	--bom-color-error: #dc2626;
+	--bom-color-error-background: #fef2f2;
+	--bom-color-error-border: #fca5a5;
+	--bom-color-error-text: #991b1b;
+	--bom-color-info: var(--bom-color-secondary);
+	--bom-color-info-background: #eff6ff;
+	--bom-color-info-border: var(--bom-color-light-blue);
+	--bom-color-info-text: var(--bom-color-primary);
 
-	/* Colors: neutral */
-	--bom-color-neutral-0: #ffffff;
-	--bom-color-neutral-50: #f8fafc;
-	--bom-color-neutral-100: #f1f5f9;
-	--bom-color-neutral-200: #e2e8f0;
-	--bom-color-neutral-300: #cbd5e1;
-	--bom-color-neutral-400: #94a3b8;
-	--bom-color-neutral-500: #64748b;
-	--bom-color-neutral-600: #475569;
-	--bom-color-neutral-700: #334155;
-	--bom-color-neutral-800: #1e293b;
-	--bom-color-neutral-900: #0f172a;
-	--bom-color-neutral-950: #020617;
+	/* Colors: interface */
+	--bom-color-background-primary: var(--bom-color-white);
+	--bom-color-background-secondary: var(--bom-color-gray-50);
+	--bom-color-border: var(--bom-color-gray-200);
+	--bom-color-border-strong: var(--bom-color-gray-300);
+	--bom-color-card-background: var(--bom-color-white);
+	--bom-color-card-border: var(--bom-color-border);
+	--bom-color-hover: #f0f7fd;
+	--bom-color-focus: var(--bom-color-secondary);
+	--bom-color-focus-ring: rgb(18 104 178 / 0.35);
+	--bom-color-text: var(--bom-color-text-primary);
+	--bom-color-text-muted: var(--bom-color-gray-600);
+	--bom-color-text-inverse: var(--bom-color-white);
+	--bom-color-link: var(--bom-color-primary);
+	--bom-color-link-hover: var(--bom-color-primary-hover);
 
-	/* Colors: semantic */
-	--bom-color-success-50: #ecfdf5;
-	--bom-color-success-500: #22c55e;
-	--bom-color-success-700: #15803d;
-	--bom-color-warning-50: #fffbeb;
-	--bom-color-warning-500: #f59e0b;
-	--bom-color-warning-700: #b45309;
-	--bom-color-danger-50: #fef2f2;
-	--bom-color-danger-500: #ef4444;
-	--bom-color-danger-700: #b91c1c;
-	--bom-color-info-50: #eff6ff;
-	--bom-color-info-500: #3b82f6;
-	--bom-color-info-700: #1d4ed8;
+	/* Colors: buttons */
+	--bom-color-button-primary-background: var(--bom-color-primary);
+	--bom-color-button-primary-background-hover: var(--bom-color-primary-hover);
+	--bom-color-button-primary-text: var(--bom-color-white);
+	--bom-color-button-primary-border: var(--bom-color-primary);
+	--bom-color-button-secondary-background: var(--bom-color-secondary);
+	--bom-color-button-secondary-background-hover: var(--bom-color-secondary-hover);
+	--bom-color-button-secondary-text: var(--bom-color-white);
+	--bom-color-button-secondary-border: var(--bom-color-secondary);
+	--bom-color-button-outline-background: transparent;
+	--bom-color-button-outline-background-hover: var(--bom-color-hover);
+	--bom-color-button-outline-text: var(--bom-color-primary);
+	--bom-color-button-outline-border: var(--bom-color-primary);
+	--bom-color-button-disabled-background: var(--bom-color-gray-200);
+	--bom-color-button-disabled-text: var(--bom-color-gray-500);
+	--bom-color-button-disabled-border: var(--bom-color-gray-200);
 
-	/* Colors: aliases */
-	--bom-color-background: var(--bom-color-neutral-0);
-	--bom-color-surface: var(--bom-color-neutral-50);
-	--bom-color-surface-elevated: var(--bom-color-neutral-0);
-	--bom-color-border: var(--bom-color-neutral-200);
-	--bom-color-border-strong: var(--bom-color-neutral-300);
-	--bom-color-text: var(--bom-color-neutral-900);
-	--bom-color-text-muted: var(--bom-color-neutral-600);
-	--bom-color-text-inverse: var(--bom-color-neutral-0);
-	--bom-color-link: var(--bom-color-brand-primary-700);
-	--bom-color-link-hover: var(--bom-color-brand-primary-800);
-	--bom-color-focus-ring: var(--bom-color-brand-secondary-400);
+	/* Colors: pricing */
+	--bom-color-price-regular: var(--bom-color-text-primary);
+	--bom-color-price-promotional: var(--bom-color-error);
+	--bom-color-price-savings: var(--bom-color-success);
+	--bom-color-price-installment: var(--bom-color-secondary);
+
+	/* Colors: legacy aliases */
+	--bom-color-neutral-0: var(--bom-color-gray-0);
+	--bom-color-neutral-50: var(--bom-color-gray-50);
+	--bom-color-neutral-100: var(--bom-color-gray-100);
+	--bom-color-neutral-200: var(--bom-color-gray-200);
+	--bom-color-neutral-300: var(--bom-color-gray-300);
+	--bom-color-neutral-400: var(--bom-color-gray-400);
+	--bom-color-neutral-500: var(--bom-color-gray-500);
+	--bom-color-neutral-600: var(--bom-color-gray-600);
+	--bom-color-neutral-700: var(--bom-color-gray-700);
+	--bom-color-neutral-800: var(--bom-color-gray-800);
+	--bom-color-neutral-900: var(--bom-color-gray-900);
+	--bom-color-neutral-950: var(--bom-color-gray-950);
+	--bom-color-background: var(--bom-color-background-primary);
+	--bom-color-surface: var(--bom-color-background-secondary);
+	--bom-color-surface-elevated: var(--bom-color-card-background);
 
 	/* Typography: families */
 	--bom-font-family-sans: Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
