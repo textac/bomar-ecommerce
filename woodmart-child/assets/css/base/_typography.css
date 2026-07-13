@@ -3,12 +3,16 @@
  */
 
 body {
-	font-family: var(--bom-font-family-sans);
-	font-size: var(--bom-font-size-md);
-	font-weight: var(--bom-font-weight-regular);
-	line-height: var(--bom-line-height-normal);
+	font-family: var(--bom-font-family-body);
+	font-size: var(--bom-font-size-body);
+	font-weight: var(--bom-font-weight-body);
+	line-height: var(--bom-line-height-body);
+	letter-spacing: var(--bom-letter-spacing-body);
 	color: var(--bom-color-text);
 	background: var(--bom-color-background);
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -19,38 +23,47 @@ h5,
 h6 {
 	margin-block: 0 var(--bom-space-4);
 	font-family: var(--bom-font-family-heading);
-	font-weight: var(--bom-font-weight-bold);
-	line-height: var(--bom-line-height-tight);
-	letter-spacing: var(--bom-letter-spacing-tight);
+	font-weight: var(--bom-font-weight-heading);
+	line-height: var(--bom-line-height-heading);
+	letter-spacing: var(--bom-letter-spacing-heading);
 	color: var(--bom-color-text);
+	text-wrap: balance;
 }
 
 h1 {
-	font-size: var(--bom-font-size-5xl);
+	font-size: var(--bom-font-size-h1);
+	line-height: var(--bom-line-height-extra-tight);
+	letter-spacing: var(--bom-letter-spacing-extra-tight);
 }
 
 h2 {
-	font-size: var(--bom-font-size-4xl);
+	font-size: var(--bom-font-size-h2);
 }
 
 h3 {
-	font-size: var(--bom-font-size-3xl);
+	font-size: var(--bom-font-size-h3);
 }
 
 h4 {
-	font-size: var(--bom-font-size-2xl);
+	font-size: var(--bom-font-size-h4);
+	line-height: var(--bom-line-height-heading-small);
 }
 
 h5 {
-	font-size: var(--bom-font-size-xl);
+	font-size: var(--bom-font-size-h5);
+	line-height: var(--bom-line-height-heading-small);
+	letter-spacing: var(--bom-letter-spacing-subtle-tight);
 }
 
 h6 {
-	font-size: var(--bom-font-size-lg);
+	font-size: var(--bom-font-size-h6);
+	line-height: var(--bom-line-height-heading-small);
+	letter-spacing: var(--bom-letter-spacing-normal);
 }
 
 p {
 	margin-block: 0 var(--bom-space-4);
+	max-width: 72ch;
 }
 
 a {
@@ -65,7 +78,8 @@ a:hover {
 }
 
 small {
-	font-size: var(--bom-font-size-sm);
+	font-size: var(--bom-font-size-small);
+	line-height: var(--bom-line-height-small);
 }
 
 strong,
@@ -78,4 +92,55 @@ kbd,
 samp,
 pre {
 	font-family: var(--bom-font-family-mono);
+}
+
+label,
+.bomar-label,
+.bomar-form-label {
+	font-family: var(--bom-font-family-ui);
+	font-size: var(--bom-font-size-label);
+	font-weight: var(--bom-font-weight-label);
+	line-height: var(--bom-line-height-label);
+	letter-spacing: var(--bom-letter-spacing-label);
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button,
+.btn,
+.bomar-button,
+.bomar-btn {
+	font-family: var(--bom-font-family-ui);
+	font-size: var(--bom-font-size-button);
+	font-weight: var(--bom-font-weight-button);
+	line-height: var(--bom-line-height-button);
+	letter-spacing: var(--bom-letter-spacing-button);
+}
+
+nav,
+.bomar-nav,
+.bomar-navigation,
+.menu {
+	font-family: var(--bom-font-family-ui);
+	font-size: var(--bom-font-size-nav);
+	font-weight: var(--bom-font-weight-nav);
+	line-height: var(--bom-line-height-nav);
+	letter-spacing: var(--bom-letter-spacing-nav);
+}
+
+.price,
+.amount,
+.woocommerce-Price-amount,
+.bomar-price {
+	font-family: var(--bom-font-family-ui);
+	font-size: var(--bom-font-size-price);
+	font-weight: var(--bom-font-weight-price);
+	line-height: var(--bom-line-height-price);
+	letter-spacing: var(--bom-letter-spacing-price);
+}
+
+.bomar-price--large {
+	font-size: var(--bom-font-size-price-large);
 }
