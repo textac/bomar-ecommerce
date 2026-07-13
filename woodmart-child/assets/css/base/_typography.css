@@ -1,0 +1,81 @@
+/**
+ * Bom Ar Condicionado base typography.
+ */
+
+body {
+	font-family: var(--bom-font-family-sans);
+	font-size: var(--bom-font-size-md);
+	font-weight: var(--bom-font-weight-regular);
+	line-height: var(--bom-line-height-normal);
+	color: var(--bom-color-text);
+	background: var(--bom-color-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-block: 0 var(--bom-space-4);
+	font-family: var(--bom-font-family-heading);
+	font-weight: var(--bom-font-weight-bold);
+	line-height: var(--bom-line-height-tight);
+	letter-spacing: var(--bom-letter-spacing-tight);
+	color: var(--bom-color-text);
+}
+
+h1 {
+	font-size: var(--bom-font-size-5xl);
+}
+
+h2 {
+	font-size: var(--bom-font-size-4xl);
+}
+
+h3 {
+	font-size: var(--bom-font-size-3xl);
+}
+
+h4 {
+	font-size: var(--bom-font-size-2xl);
+}
+
+h5 {
+	font-size: var(--bom-font-size-xl);
+}
+
+h6 {
+	font-size: var(--bom-font-size-lg);
+}
+
+p {
+	margin-block: 0 var(--bom-space-4);
+}
+
+a {
+	color: var(--bom-color-link);
+	text-decoration-thickness: 0.08em;
+	text-underline-offset: 0.16em;
+	transition: color var(--bom-transition-duration-fast) var(--bom-transition-timing-standard);
+}
+
+a:hover {
+	color: var(--bom-color-link-hover);
+}
+
+small {
+	font-size: var(--bom-font-size-sm);
+}
+
+strong,
+b {
+	font-weight: var(--bom-font-weight-bold);
+}
+
+code,
+kbd,
+samp,
+pre {
+	font-family: var(--bom-font-family-mono);
+}
