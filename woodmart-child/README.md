@@ -61,8 +61,8 @@ woodmart-child/
 ## Finalidade dos grupos de pastas
 
 - `assets/`: arquivos estáticos próprios do tema filho.
-- `assets/css/main.css`: ponto de entrada CSS atual, preservado para manter o carregamento existente.
-- `assets/css/base/`: estilos globais futuros, como reset, variáveis e tipografia.
+- `assets/css/main.css`: ponto de entrada CSS atual; importa a fundação do Design System em `assets/css/base/index.css`.
+- `assets/css/base/`: fundação do Design System, incluindo tokens em `_variables.css`, reset em `_reset.css`, tipografia em `_typography.css`, utilitários globais em `_utilities.css` e o agregador `index.css`.
 - `assets/css/layout/`: estilos estruturais futuros, como grids, containers e seções base.
 - `assets/css/components/`: estilos futuros de componentes reutilizáveis.
 - `assets/css/pages/`: estilos futuros específicos de páginas ou contextos.

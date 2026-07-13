@@ -1,0 +1,181 @@
+/**
+ * Bom Ar Condicionado Design System tokens.
+ *
+ * This file contains foundational CSS custom properties only.
+ * Do not add component, layout, page, or theme-specific selectors here.
+ */
+
+:root {
+	/* Colors: brand */
+	--bom-color-brand-primary-50: #eef8ff;
+	--bom-color-brand-primary-100: #d9efff;
+	--bom-color-brand-primary-200: #bce4ff;
+	--bom-color-brand-primary-300: #8ed4ff;
+	--bom-color-brand-primary-400: #58b9f7;
+	--bom-color-brand-primary-500: #2f9ee8;
+	--bom-color-brand-primary-600: #177fc6;
+	--bom-color-brand-primary-700: #12649f;
+	--bom-color-brand-primary-800: #145682;
+	--bom-color-brand-primary-900: #17486b;
+
+	--bom-color-brand-secondary-50: #f0fbff;
+	--bom-color-brand-secondary-100: #dff7ff;
+	--bom-color-brand-secondary-200: #b9f0ff;
+	--bom-color-brand-secondary-300: #7ee4ff;
+	--bom-color-brand-secondary-400: #3bd2fb;
+	--bom-color-brand-secondary-500: #12b8e2;
+	--bom-color-brand-secondary-600: #0694bf;
+	--bom-color-brand-secondary-700: #087699;
+	--bom-color-brand-secondary-800: #0d617c;
+	--bom-color-brand-secondary-900: #105168;
+
+	--bom-color-brand-accent-50: #fff7ed;
+	--bom-color-brand-accent-100: #ffedd5;
+	--bom-color-brand-accent-200: #fed7aa;
+	--bom-color-brand-accent-300: #fdba74;
+	--bom-color-brand-accent-400: #fb923c;
+	--bom-color-brand-accent-500: #f97316;
+	--bom-color-brand-accent-600: #ea580c;
+	--bom-color-brand-accent-700: #c2410c;
+	--bom-color-brand-accent-800: #9a3412;
+	--bom-color-brand-accent-900: #7c2d12;
+
+	/* Colors: neutral */
+	--bom-color-neutral-0: #ffffff;
+	--bom-color-neutral-50: #f8fafc;
+	--bom-color-neutral-100: #f1f5f9;
+	--bom-color-neutral-200: #e2e8f0;
+	--bom-color-neutral-300: #cbd5e1;
+	--bom-color-neutral-400: #94a3b8;
+	--bom-color-neutral-500: #64748b;
+	--bom-color-neutral-600: #475569;
+	--bom-color-neutral-700: #334155;
+	--bom-color-neutral-800: #1e293b;
+	--bom-color-neutral-900: #0f172a;
+	--bom-color-neutral-950: #020617;
+
+	/* Colors: semantic */
+	--bom-color-success-50: #ecfdf5;
+	--bom-color-success-500: #22c55e;
+	--bom-color-success-700: #15803d;
+	--bom-color-warning-50: #fffbeb;
+	--bom-color-warning-500: #f59e0b;
+	--bom-color-warning-700: #b45309;
+	--bom-color-danger-50: #fef2f2;
+	--bom-color-danger-500: #ef4444;
+	--bom-color-danger-700: #b91c1c;
+	--bom-color-info-50: #eff6ff;
+	--bom-color-info-500: #3b82f6;
+	--bom-color-info-700: #1d4ed8;
+
+	/* Colors: aliases */
+	--bom-color-background: var(--bom-color-neutral-0);
+	--bom-color-surface: var(--bom-color-neutral-50);
+	--bom-color-surface-elevated: var(--bom-color-neutral-0);
+	--bom-color-border: var(--bom-color-neutral-200);
+	--bom-color-border-strong: var(--bom-color-neutral-300);
+	--bom-color-text: var(--bom-color-neutral-900);
+	--bom-color-text-muted: var(--bom-color-neutral-600);
+	--bom-color-text-inverse: var(--bom-color-neutral-0);
+	--bom-color-link: var(--bom-color-brand-primary-700);
+	--bom-color-link-hover: var(--bom-color-brand-primary-800);
+	--bom-color-focus-ring: var(--bom-color-brand-secondary-400);
+
+	/* Typography: families */
+	--bom-font-family-sans: Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
+	--bom-font-family-heading: var(--bom-font-family-sans);
+	--bom-font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+	/* Typography: sizes */
+	--bom-font-size-2xs: 0.625rem;
+	--bom-font-size-xs: 0.75rem;
+	--bom-font-size-sm: 0.875rem;
+	--bom-font-size-md: 1rem;
+	--bom-font-size-lg: 1.125rem;
+	--bom-font-size-xl: 1.25rem;
+	--bom-font-size-2xl: 1.5rem;
+	--bom-font-size-3xl: 1.875rem;
+	--bom-font-size-4xl: 2.25rem;
+	--bom-font-size-5xl: 3rem;
+
+	/* Typography: weights */
+	--bom-font-weight-regular: 400;
+	--bom-font-weight-medium: 500;
+	--bom-font-weight-semibold: 600;
+	--bom-font-weight-bold: 700;
+
+	/* Typography: line heights */
+	--bom-line-height-none: 1;
+	--bom-line-height-tight: 1.2;
+	--bom-line-height-snug: 1.35;
+	--bom-line-height-normal: 1.5;
+	--bom-line-height-relaxed: 1.7;
+
+	/* Typography: letter spacing */
+	--bom-letter-spacing-tight: -0.02em;
+	--bom-letter-spacing-normal: 0;
+	--bom-letter-spacing-wide: 0.02em;
+
+	/* Spacing */
+	--bom-space-0: 0;
+	--bom-space-1: 0.25rem;
+	--bom-space-2: 0.5rem;
+	--bom-space-3: 0.75rem;
+	--bom-space-4: 1rem;
+	--bom-space-5: 1.25rem;
+	--bom-space-6: 1.5rem;
+	--bom-space-8: 2rem;
+	--bom-space-10: 2.5rem;
+	--bom-space-12: 3rem;
+	--bom-space-16: 4rem;
+	--bom-space-20: 5rem;
+	--bom-space-24: 6rem;
+	--bom-space-32: 8rem;
+
+	/* Border radius */
+	--bom-radius-none: 0;
+	--bom-radius-xs: 0.125rem;
+	--bom-radius-sm: 0.25rem;
+	--bom-radius-md: 0.5rem;
+	--bom-radius-lg: 0.75rem;
+	--bom-radius-xl: 1rem;
+	--bom-radius-2xl: 1.5rem;
+	--bom-radius-full: 9999px;
+
+	/* Shadows */
+	--bom-shadow-xs: 0 1px 2px rgb(15 23 42 / 0.06);
+	--bom-shadow-sm: 0 1px 3px rgb(15 23 42 / 0.1), 0 1px 2px rgb(15 23 42 / 0.06);
+	--bom-shadow-md: 0 4px 6px -1px rgb(15 23 42 / 0.1), 0 2px 4px -2px rgb(15 23 42 / 0.08);
+	--bom-shadow-lg: 0 10px 15px -3px rgb(15 23 42 / 0.1), 0 4px 6px -4px rgb(15 23 42 / 0.08);
+	--bom-shadow-xl: 0 20px 25px -5px rgb(15 23 42 / 0.12), 0 8px 10px -6px rgb(15 23 42 / 0.1);
+	--bom-shadow-focus: 0 0 0 3px rgb(59 210 251 / 0.45);
+
+	/* Z-index */
+	--bom-z-index-hide: -1;
+	--bom-z-index-base: 0;
+	--bom-z-index-raised: 10;
+	--bom-z-index-dropdown: 1000;
+	--bom-z-index-sticky: 1100;
+	--bom-z-index-overlay: 1200;
+	--bom-z-index-modal: 1300;
+	--bom-z-index-popover: 1400;
+	--bom-z-index-toast: 1500;
+	--bom-z-index-tooltip: 1600;
+
+	/* Breakpoints */
+	--bom-breakpoint-xs: 320px;
+	--bom-breakpoint-sm: 480px;
+	--bom-breakpoint-md: 768px;
+	--bom-breakpoint-lg: 1024px;
+	--bom-breakpoint-xl: 1280px;
+	--bom-breakpoint-2xl: 1440px;
+
+	/* Transitions */
+	--bom-transition-duration-fast: 150ms;
+	--bom-transition-duration-base: 250ms;
+	--bom-transition-duration-slow: 350ms;
+	--bom-transition-timing-standard: cubic-bezier(0.2, 0, 0, 1);
+	--bom-transition-timing-emphasized: cubic-bezier(0.2, 0, 0, 1.2);
+	--bom-transition-property-common: color, background-color, border-color, box-shadow, opacity, transform;
+	--bom-transition-common: var(--bom-transition-property-common) var(--bom-transition-duration-base) var(--bom-transition-timing-standard);
+}

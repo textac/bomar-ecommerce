@@ -1,0 +1,36 @@
+/**
+ * Bom Ar Condicionado utility helpers.
+ *
+ * Keep utilities generic and token-driven. Do not add component styles here.
+ */
+
+.bom-sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.bom-text-muted {
+	color: var(--bom-color-text-muted);
+}
+
+.bom-text-inverse {
+	color: var(--bom-color-text-inverse);
+}
+
+.bom-surface {
+	color: var(--bom-color-text);
+	background: var(--bom-color-surface);
+}
+
+.bom-surface-elevated {
+	color: var(--bom-color-text);
+	background: var(--bom-color-surface-elevated);
+	box-shadow: var(--bom-shadow-sm);
+}

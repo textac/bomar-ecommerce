@@ -3,3 +3,5 @@
  *
  * Keep layout-specific styles in component files when the project grows.
  */
+
+@import url("./base/index.css");
