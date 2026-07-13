@@ -40,12 +40,14 @@ Este documento é a constituição técnica e funcional do novo e-commerce da Bo
 
 ## 4. Design System
 
-- Azul principal: `#024EA2`.
+- As cores oficiais do Design System devem seguir fielmente o Manual da Marca da Bom Ar.
+- Azul principal: `#024DA1`.
 - Azul secundário: `#1268B2`.
 - Azul claro: `#ABE0F9`.
 - Fundo principal branco.
 - Evitar azul-marinho escuro na barra superior.
-- Tipografia moderna, altamente legível e otimizada para web.
+- Tipografia moderna, altamente legível e otimizada para web; pode usar soluções mais modernas do que as do manual da marca quando isso melhorar legibilidade e experiência digital.
+- Ícones podem usar soluções mais modernas do que as do manual da marca, desde que preservem clareza, acessibilidade e coerência visual.
 - Interface premium, limpa, clara e com bom espaçamento.
 - Evitar excesso de cards, informações e elementos competindo pela atenção.
 - Cada tela deve possuir hierarquia visual clara.
