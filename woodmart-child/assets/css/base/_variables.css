@@ -109,8 +109,10 @@
 	--bom-color-surface-elevated: var(--bom-color-card-background);
 
 	/* Typography: families */
-	--bom-font-family-sans: Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
+	--bom-font-family-sans: Geist, Inter, system-ui, "Segoe UI", Arial, sans-serif;
 	--bom-font-family-heading: var(--bom-font-family-sans);
+	--bom-font-family-body: var(--bom-font-family-sans);
+	--bom-font-family-ui: var(--bom-font-family-sans);
 	--bom-font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 
 	/* Typography: sizes */
@@ -124,24 +126,65 @@
 	--bom-font-size-3xl: 1.875rem;
 	--bom-font-size-4xl: 2.25rem;
 	--bom-font-size-5xl: 3rem;
+	--bom-font-size-6xl: 3.5rem;
+
+	/* Typography: responsive scale */
+	--bom-font-size-body: clamp(1rem, 0.96rem + 0.13vw, 1.0625rem);
+	--bom-font-size-small: clamp(0.875rem, 0.85rem + 0.08vw, 0.9375rem);
+	--bom-font-size-label: clamp(0.75rem, 0.73rem + 0.06vw, 0.8125rem);
+	--bom-font-size-button: clamp(0.9375rem, 0.91rem + 0.08vw, 1rem);
+	--bom-font-size-nav: clamp(0.9375rem, 0.91rem + 0.08vw, 1rem);
+	--bom-font-size-price: clamp(1.25rem, 1.08rem + 0.55vw, 1.75rem);
+	--bom-font-size-price-large: clamp(1.5rem, 1.16rem + 1.08vw, 2.5rem);
+	--bom-font-size-h1: clamp(2.25rem, 1.68rem + 1.8vw, 3.75rem);
+	--bom-font-size-h2: clamp(1.875rem, 1.5rem + 1.2vw, 3rem);
+	--bom-font-size-h3: clamp(1.5rem, 1.28rem + 0.7vw, 2.25rem);
+	--bom-font-size-h4: clamp(1.25rem, 1.12rem + 0.42vw, 1.625rem);
+	--bom-font-size-h5: clamp(1.125rem, 1.04rem + 0.25vw, 1.375rem);
+	--bom-font-size-h6: clamp(1rem, 0.96rem + 0.13vw, 1.125rem);
 
 	/* Typography: weights */
 	--bom-font-weight-regular: 400;
 	--bom-font-weight-medium: 500;
 	--bom-font-weight-semibold: 600;
 	--bom-font-weight-bold: 700;
+	--bom-font-weight-extrabold: 800;
+	--bom-font-weight-heading: var(--bom-font-weight-bold);
+	--bom-font-weight-body: var(--bom-font-weight-regular);
+	--bom-font-weight-label: var(--bom-font-weight-semibold);
+	--bom-font-weight-price: var(--bom-font-weight-bold);
+	--bom-font-weight-button: var(--bom-font-weight-semibold);
+	--bom-font-weight-nav: var(--bom-font-weight-semibold);
 
 	/* Typography: line heights */
 	--bom-line-height-none: 1;
+	--bom-line-height-extra-tight: 1.1;
 	--bom-line-height-tight: 1.2;
 	--bom-line-height-snug: 1.35;
 	--bom-line-height-normal: 1.5;
 	--bom-line-height-relaxed: 1.7;
+	--bom-line-height-body: 1.6;
+	--bom-line-height-small: 1.5;
+	--bom-line-height-label: 1.35;
+	--bom-line-height-button: 1.2;
+	--bom-line-height-nav: 1.3;
+	--bom-line-height-price: 1.1;
+	--bom-line-height-heading: 1.12;
+	--bom-line-height-heading-small: 1.2;
 
 	/* Typography: letter spacing */
+	--bom-letter-spacing-extra-tight: -0.04em;
 	--bom-letter-spacing-tight: -0.02em;
+	--bom-letter-spacing-subtle-tight: -0.01em;
 	--bom-letter-spacing-normal: 0;
 	--bom-letter-spacing-wide: 0.02em;
+	--bom-letter-spacing-wider: 0.04em;
+	--bom-letter-spacing-heading: var(--bom-letter-spacing-tight);
+	--bom-letter-spacing-body: var(--bom-letter-spacing-normal);
+	--bom-letter-spacing-label: var(--bom-letter-spacing-wide);
+	--bom-letter-spacing-price: var(--bom-letter-spacing-subtle-tight);
+	--bom-letter-spacing-button: var(--bom-letter-spacing-wide);
+	--bom-letter-spacing-nav: var(--bom-letter-spacing-subtle-tight);
 
 	/* Spacing */
 	--bom-space-0: 0;
